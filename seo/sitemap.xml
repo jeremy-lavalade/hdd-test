@@ -8,40 +8,25 @@
 
     <!-- Sections principales listées dans le footer -->
     <url>
-        <loc>https://www.harmoniedudoutefilm.fr/le-film</loc>
+        <loc>https://www.harmoniedudoutefilm.fr/film</loc>
     </url>
     <url>
-        <loc>https://www.harmoniedudoutefilm.fr/le-film/la-pointe-rose</loc>
+        <loc>https://www.harmoniedudoutefilm.fr/film/la-pointe-rose</loc>
     </url>
     <url>
-        <loc>https://www.harmoniedudoutefilm.fr/le-film/objectifs-du-film</loc>
+        <loc>https://www.harmoniedudoutefilm.fr/film/objectifs-du-film</loc>
     </url>
     <url>
-        <loc>https://www.harmoniedudoutefilm.fr/le-film/synopsis</loc>
+        <loc>https://www.harmoniedudoutefilm.fr/film/synopsis</loc>
     </url>
     <url>
-        <loc>https://www.harmoniedudoutefilm.fr/le-film/scenario</loc>
+        <loc>https://www.harmoniedudoutefilm.fr/film/scenario</loc>
     </url>
     <url>
-        <loc>https://www.harmoniedudoutefilm.fr/le-film/dossier-artistique</loc>
+        <loc>https://www.harmoniedudoutefilm.fr/film/dossier-artistique</loc>
     </url>
     <url>
         <loc>https://www.harmoniedudoutefilm.fr/equipe</loc>
-    </url>
-    <url>
-        <loc>https://www.harmoniedudoutefilm.fr/equipe#realisateurs</loc>
-    </url>
-    <url>
-        <loc>https://www.harmoniedudoutefilm.fr/equipe#equipes-artistiques</loc>
-    </url>
-    <url>
-        <loc>https://www.harmoniedudoutefilm.fr/equipe#equipes-production</loc>
-    </url>
-    <url>
-        <loc>https://www.harmoniedudoutefilm.fr/equipe#techniciens</loc>
-    </url>
-    <url>
-        <loc>https://www.harmoniedudoutefilm.fr/equipe#equipes-support</loc>
     </url>
     <url>
         <loc>https://www.harmoniedudoutefilm.fr/nous-rejoindre</loc>
@@ -65,7 +50,7 @@
         <loc>https://www.harmoniedudoutefilm.fr/en-savoir-plus/graphisme</loc>
     </url>
     <url>
-        <loc>https://www.harmoniedudoutefilm.fr/contact</loc>
+        <loc>https://www.harmoniedudoutefilm.fr/en-savoir-plus/contact</loc>
     </url>
     <url>
         <loc>https://www.harmoniedudoutefilm.fr/nous-soutenir</loc>
