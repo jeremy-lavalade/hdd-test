@@ -17,14 +17,14 @@ body {
 /* IMPORT POLICES */
   @font-face {
       font-family: 'PP Hatton';
-      src: url('../images/polices/hatton-medium.otf'); 
+      src: url('images/polices/hatton-medium.otf'); 
       font-weight: normal;
       font-style: normal;
   }
 
   @font-face {
       font-family: 'Ryman-Eco';
-      src: url('../images/polices/rymaneco.otf'); 
+      src: url('images/polices/rymaneco.otf'); 
       font-weight: normal;
       font-style: normal;
   }
