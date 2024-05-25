@@ -9,10 +9,29 @@
 	<!-- SECTION A MODIFIER SELON SI PAGE PRINCIPALE OU SECONDAIRE -->
 	<link rel="stylesheet" href="style.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src="script.js"></script>
 
 	<!-- PAS DE MODIFICATION REQUISE -->
-	
+	<meta name="keywords" content="cinema, thriller, ecologie, dystopie">
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="https://www.harmoniedudoutefilm.fr/seo/favicon-hdd.png">
+  <meta name="description" content="Face aux défis écologiques, L’Harmonie du Doute est un film à suspense qui explore l'équilibre entre esprit critique et passivité, humains et environnement.">
+  <!-- Balises Open Graph pour intégration avec les réseaux sociaux -->
+  <meta property="og:title" content="L'Harmonie du Doute - Film">
+  <meta property="og:description" content="Face aux défis écologiques, L’Harmonie du Doute est un film à suspense qui explore l'équilibre entre esprit critique et passivité, humains et environnement.">
+  <meta property="og:image" content="https://www.harmoniedudoutefilm.fr/seo/logo-hdd.png">
+  <meta property="og:url" content="https://www.harmoniedudoutefilm.fr">
+  <meta property="og:site_name" content="L'Harmonie du Doute - Film">
+  <!-- Liens préchargés pour améliorer les performances de chargement -->
+  <link rel="preconnect" href="https://www.harmoniedudoutefilm.fr">
+  <!-- Intégration de la feuille de style pour le navigateur Chrome sur Android -->
+  <meta name="theme-color" content="#ffffff">
+  <!-- Canonical URL pour éviter le contenu dupliqué -->
+  <link rel="canonical" href="https://www.harmoniedudoutefilm.fr">
+  <!-- Sitemap et Robots pour guider les crawlers des moteurs de recherche -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://www.harmoniedudoutefilm.fr/seo/sitemap.xml">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
 
 </head>
@@ -406,6 +425,79 @@
 	window.onload = initializePixiApp;
 
 	
+	//SCRIPT POUR INTEGRER HEADER & FOOTER
+  document.addEventListener('DOMContentLoaded', function() {
+    fetch('/header-footer/header.html')
+      .then(response => response.text())
+      .then(data => {
+          document.getElementById('header').innerHTML = data;
+      });
+
+    fetch('/header-footer/footer.html')
+      .then(response => response.text())
+      .then(data => {
+          document.getElementById('footer').innerHTML = data;
+      });
+  });
+
+  window.onload = function() {
+    function updateImageSource() {
+        const screenWidth = window.innerWidth;
+        const image = document.getElementById('header-doute');
+        if (screenWidth < 380) {
+            image.src = "../images/logo-hdd/doute-logo.webp";
+        } else if (screenWidth >= 1024 && screenWidth <= 1049) {
+            image.src = "../images/logo-hdd/doute-logo.webp";
+        } else {
+            image.src = "../images/logo-hdd/doute.webp";
+        }
+    }
+    updateImageSource(); 
+    window.addEventListener('resize', updateImageSource); 
+  };
+
+//SCRIPT POUR MODIFICATION COULEUR HEADER SELON SCROLL
+  window.onscroll = function() {
+      var header = document.getElementById('header');
+      if (window.scrollY > 90) {
+          header.style.backgroundColor = '#343737'; // Couleur après avoir défilé de 90px
+      } else {
+          header.style.backgroundColor = 'transparent'; // Transparent au début
+      }
+  };
+//SCRIPT POUR HEADER EN FORMAT MOBILE
+  function toggleMenuHeader(icon) {
+    var menuheader = document.getElementById('header-menu'); // Obtenez l'élément de menu par son identifiant
+    
+    // Vérifie si le menu est déjà affiché
+    if (menuheader.style.display === 'flex') {
+      menuheader.style.display = 'none'; // Cachez le menu
+      icon.classList.remove('open'); // Retirez la classe 'open' car le menu est caché
+
+    } else {
+      menuheader.style.display = 'flex'; // Affichez le menu
+      // Ajoutez la classe 'open' seulement si elle n'est pas déjà présente
+      if (!icon.classList.contains('open')) {
+        icon.classList.add('open');
+      }
+    }
+  }
+//SCRIPT POUR FOOTER EN FORMAT MOBILE
+  function toggleMenuFooter(event, menuId) {
+    event.preventDefault();
+    event.stopPropagation();
+    var menufooter = document.getElementById(menuId);
+    var toggle = event.target;
+
+    if (menufooter.style.display === 'block') {
+      menufooter.style.display = 'none';
+      toggle.textContent = '+';
+    } else {
+      menufooter.style.display = 'block';
+      toggle.textContent = '−';
+    }
+  }
+
 </script>
 </body>
 
