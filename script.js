@@ -1,12 +1,12 @@
 //SCRIPT POUR INTEGRER HEADER & FOOTER
   document.addEventListener('DOMContentLoaded', function() {
-    fetch('/header-footer/header.html')
+    fetch('header-footer/header.html')
       .then(response => response.text())
       .then(data => {
           document.getElementById('header').innerHTML = data;
       });
 
-    fetch('/header-footer/footer.html')
+    fetch('header-footer/footer.html')
       .then(response => response.text())
       .then(data => {
           document.getElementById('footer').innerHTML = data;
@@ -18,11 +18,11 @@
         const screenWidth = window.innerWidth;
         const image = document.getElementById('header-doute');
         if (screenWidth < 380) {
-            image.src = "../images/logo-hdd/doute-logo.webp";
+            image.src = "images/logo-hdd/doute-logo.webp";
         } else if (screenWidth >= 1024 && screenWidth <= 1049) {
-            image.src = "../images/logo-hdd/doute-logo.webp";
+            image.src = "images/logo-hdd/doute-logo.webp";
         } else {
-            image.src = "../images/logo-hdd/doute.webp";
+            image.src = "images/logo-hdd/doute.webp";
         }
     }
     updateImageSource(); 
@@ -70,5 +70,4 @@
       toggle.textContent = '−';
     }
   }
-
   
