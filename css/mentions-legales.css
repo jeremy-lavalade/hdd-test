@@ -1,7 +1,7 @@
 #mentions-legales-container{
   margin: 0px;
   width: 100vw;
-  background-image: url('/images/fonds/ciel-bleu.webp');
+  background-image: url('../images/fonds/ciel-bleu.webp');
   background-size: cover; 
   background-position: top center; 
   background-repeat: no-repeat;
