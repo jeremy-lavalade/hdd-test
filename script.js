@@ -18,11 +18,11 @@
         const screenWidth = window.innerWidth;
         const image = document.getElementById('header-doute');
         if (screenWidth < 380) {
-            image.src = "../images/logo-hdd/doute-logo.webp";
+            image.src = "images/logo-hdd/doute-logo.webp";
         } else if (screenWidth >= 1024 && screenWidth <= 1049) {
-            image.src = "../images/logo-hdd/doute-logo.webp";
+            image.src = "images/logo-hdd/doute-logo.webp";
         } else {
-            image.src = "../images/logo-hdd/doute.webp";
+            image.src = "images/logo-hdd/doute.webp";
         }
     }
     updateImageSource(); 
