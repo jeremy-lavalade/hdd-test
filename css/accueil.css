@@ -2,7 +2,7 @@
     #accueil1{
         margin: 0px;
         width: 100vw;
-        background-image: url('../images/fonds/ciel-bleu.webp');
+        background-image: url('images/fonds/ciel-bleu.webp');
         background-size: 100% 100%; 
         background-position: top center; 
         background-repeat: no-repeat;
@@ -34,7 +34,7 @@
         z-index: 2;  
         width: 100vw;
         height: 0;
-        background-image: url('/images/accueil/mer2.webp');
+        background-image: url('images/accueil/mer2.webp');
         background-size: 100% 100%; 
         background-position: top center; 
         background-repeat: no-repeat;
@@ -47,7 +47,7 @@
         margin: 0px;
         z-index: 2; 
         width: 100vw;
-        background-image: url('/images/accueil/mer3.webp');
+        background-image: url('images/accueil/mer3.webp');
         background-size: 100% 100%; 
         background-position: top center; 
         background-repeat: no-repeat;

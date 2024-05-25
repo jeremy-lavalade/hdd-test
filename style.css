@@ -297,60 +297,60 @@ body {
   }
   /*Fonds clairs*/
     .fond.rect.horizontal.light1{
-      background-image: url('/images/fonds/fond-recth-clair1.webp');
+      background-image: url('images/fonds/fond-recth-clair1.webp');
     }
     .fond.rect.vertical.light1{
-      background-image: url('/images/fonds/fond-rectv-clair1.webp');
+      background-image: url('images/fonds/fond-rectv-clair1.webp');
     }
     .fond.carre.light1{
-      background-image: url('/images/fonds/fond-carre-clair1.webp');
+      background-image: url('images/fonds/fond-carre-clair1.webp');
     }
     .fond.rect.horizontal.light2{
-      background-image: url('/images/fonds/fond-recth-clair2.webp');
+      background-image: url('images/fonds/fond-recth-clair2.webp');
     }
     .fond.rect.vertical.light2{
-      background-image: url('/images/fonds/fond-rectv-clair2.webp');
+      background-image: url('images/fonds/fond-rectv-clair2.webp');
     }
     .fond.carre.light2{
-      background-image: url('/images/fonds/fond-carre-clair2.webp');
+      background-image: url('images/fonds/fond-carre-clair2.webp');
     }
   /*Fonds sombres*/
     .fond.rect.horizontal.dark1{
-      background-image: url('/images/fonds/fond-recth-sombre1.webp');
+      background-image: url('images/fonds/fond-recth-sombre1.webp');
     }
     .fond.rect.vertical.dark1{
-      background-image: url('/images/fonds/fond-rectv-sombre1.webp');
+      background-image: url('images/fonds/fond-rectv-sombre1.webp');
     }
     .fond.carre.dark1{
-      background-image: url('/images/fonds/fond-carre-sombre1.webp');
+      background-image: url('images/fonds/fond-carre-sombre1.webp');
     }
     .fond.rect.horizontal.dark2{
-      background-image: url('/images/fonds/fond-recth-sombre2.webp');
+      background-image: url('images/fonds/fond-recth-sombre2.webp');
     }
     .fond.rect.vertical.dark2{
-      background-image: url('/images/fonds/fond-rectv-sombre2.webp');
+      background-image: url('images/fonds/fond-rectv-sombre2.webp');
     }
     .fond.carre.dark2{
-      background-image: url('/images/fonds/fond-carre-sombre2.webp');
+      background-image: url('images/fonds/fond-carre-sombre2.webp');
     }
   /*Fonds roses*/
     .fond.rect.horizontal.pink1{
-      background-image: url('/images/fonds/fond-recth-rose1.webp');
+      background-image: url('images/fonds/fond-recth-rose1.webp');
     }
     .fond.rect.vertical.pink1{
-      background-image: url('/images/fonds/fond-rectv-rose1.webp');
+      background-image: url('images/fonds/fond-rectv-rose1.webp');
     }
     .fond.carre.pink1{
-      background-image: url('/images/fonds/fond-carre-rose1.webp');
+      background-image: url('images/fonds/fond-carre-rose1.webp');
     }
     .fond.rect.horizontal.pink2{
-      background-image: url('/images/fonds/fond-recth-rose2.webp');
+      background-image: url('images/fonds/fond-recth-rose2.webp');
     }
     .fond.rect.vertical.pink2{
-      background-image: url('/images/fonds/fond-rectv-rose2.webp');
+      background-image: url('images/fonds/fond-rectv-rose2.webp');
     }
     .fond.carre.pink2{
-      background-image: url('/images/fonds/fond-carre-rose2.webp');
+      background-image: url('images/fonds/fond-carre-rose2.webp');
     }
 
 /*VERSION ORDINATEUR*/
