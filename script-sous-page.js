@@ -1,12 +1,12 @@
 //SCRIPT POUR INTEGRER HEADER & FOOTER
   document.addEventListener('DOMContentLoaded', function() {
-    fetch('../header-footer/header.html')
+    fetch('../header-footer/header-sous-page.html')
       .then(response => response.text())
       .then(data => {
           document.getElementById('header').innerHTML = data;
       });
 
-    fetch('../header-footer/footer.html')
+    fetch('../header-footer/footer-sous-page.html')
       .then(response => response.text())
       .then(data => {
           document.getElementById('footer').innerHTML = data;
