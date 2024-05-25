@@ -270,19 +270,19 @@
 	          if (screenWidth < 380) {
 		          applyTemporaryBlurTransition('titre-header', 400);
 	            setTimeout(() => {
-	                image.src = "../images/logo-hdd/doute-logo.webp";
+	                image.src = "images/logo-hdd/doute-logo.webp";
 	                image.style.height = "48%";
 	            }, 50);
 		        } else if (screenWidth >= 1024 && screenWidth <= 1049) {
 		          applyTemporaryBlurTransition('titre-header', 400);
 	            setTimeout(() => {
-	                image.src = "../images/logo-hdd/doute-logo.webp";
+	                image.src = "images/logo-hdd/doute-logo.webp";
 	                image.style.height = "48%";
 	            }, 50);
 		        } else {
 		          applyTemporaryBlurTransition('titre-header', 400);
 	            setTimeout(() => {
-	                image.src = "../images/logo-hdd/doute.webp";
+	                image.src = "images/logo-hdd/doute.webp";
 	                image.style.height = "48%";
 	            }, 50);
 		        }
@@ -291,14 +291,14 @@
 	      if (topPosition > 0 && image.src.endsWith("doute.webp")) {
 	          applyTemporaryBlurTransition('titre-header', 400);
 	          setTimeout(() => {
-	              image.src = "../images/logo-hdd/doute-logo-film.webp";
+	              image.src = "images/logo-hdd/doute-logo-film.webp";
 	              image.style.height = "72%";
 	          }, 50);
 	      }
 	      if (topPosition > 0 && image.src.endsWith("doute-logo.webp")) {
 	          applyTemporaryBlurTransition('titre-header', 400);
 	          setTimeout(() => {
-	              image.src = "../images/logo-hdd/doute-logo-film.webp";
+	              image.src = "images/logo-hdd/doute-logo-film.webp";
 	              image.style.height = "72%";
 	          }, 50);
 	      }
@@ -427,7 +427,7 @@
 	
 	//SCRIPT POUR INTEGRER HEADER & FOOTER
   document.addEventListener('DOMContentLoaded', function() {
-    fetch('/header-footer/header.html')
+    fetch('header-footer/header.html')
       .then(response => response.text())
       .then(data => {
           document.getElementById('header').innerHTML = data;
@@ -445,11 +445,11 @@
         const screenWidth = window.innerWidth;
         const image = document.getElementById('header-doute');
         if (screenWidth < 380) {
-            image.src = "../images/logo-hdd/doute-logo.webp";
+            image.src = "/images/logo-hdd/doute-logo.webp";
         } else if (screenWidth >= 1024 && screenWidth <= 1049) {
-            image.src = "../images/logo-hdd/doute-logo.webp";
+            image.src = "/images/logo-hdd/doute-logo.webp";
         } else {
-            image.src = "../images/logo-hdd/doute.webp";
+            image.src = "/images/logo-hdd/doute.webp";
         }
     }
     updateImageSource(); 
