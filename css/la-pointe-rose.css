@@ -10,12 +10,16 @@
   width: 200vw;
   position: relative;
   left: -70vw;
+  top: -100vw;
+  margin-bottom: -100vw;
+  z-index: 0;
 }
 #lpr-titre{
   width: 50vw;
   position: absolute;
   top: 20vw;
   left: 45vw;
+  z-index: 1;
 }
 #lpr-titre h1{
   margin-top: 5vw;
